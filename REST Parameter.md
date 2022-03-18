@@ -33,7 +33,6 @@ function lookArguments() {
 }
 
 lookArguments(1, 2, 3); // [Arguments] { '0': 1, '1': 2, '2': 3 }
-
 ```
 
 
@@ -50,7 +49,7 @@ function add(...args) {
 }
 
 console.log(add(1));
-console.log(add(1, 2));
+console.log(add(1, 2)); // args === [1, 2]
 ```
 
 REST 파라미터는, 함수의 파라미터로 오는 값을 모아서 하나의 배열에 집어 넣는다.
